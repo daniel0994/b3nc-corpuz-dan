@@ -1,0 +1,47 @@
+
+
+body {
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+#me {
+	width: 200px;
+	height: 200px;
+	padding: 1px;
+	box-shadow: 1px 1px 2px;
+	border-radius: 50%;
+	border: 3px solid white;
+	margin-top: 30px;
+}
+
+body h1, h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+h2 {
+	text-transform:  uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+.container {
+	color: #041F37;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+}
+
+.about {
+	background-color: #669999;
+	opacity: 0.8;
+	width: 800px;
+	display: block;
+	margin: auto;
+}
