@@ -23,11 +23,13 @@ body h1, h2 {
 h1 {
 	font-size: 30px;
 	margin-bottom: 0;
+    color: white;
 }
 
 h2 {
 	text-transform:  uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+    color: white;
 }
 
 
@@ -44,4 +46,9 @@ h2 {
 	width: 800px;
 	display: block;
 	margin: auto;
+}
+
+.about-p {
+    font-size: 18px;
+    line-height: 1.5;
 }
