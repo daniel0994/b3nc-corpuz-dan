@@ -1,14 +1,14 @@
 
 
 body {
-	background: url('../img/bg.jpg') no-repeat;
+	background: url('../img/bg2.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;	
 }
 
 #me {
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	padding: 1px;
 	box-shadow: 1px 1px 2px;
 	border-radius: 50%;
@@ -17,11 +17,19 @@ body {
 }
 
 body h1, h2 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 4px;
+}
+
+.line {
+    border-bottom: 1px solid white;
+    margin: 5px auto;
+    width: 50%;
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 	margin-bottom: 0;
     color: white;
 }
@@ -29,6 +37,7 @@ h1 {
 h2 {
 	text-transform:  uppercase;
 	letter-spacing: 1px;
+    font-size: 16px;
     color: white;
 }
 
@@ -38,17 +47,19 @@ h2 {
 	color: #041F37;
 	font-family: 'Slabo 27px', serif;
 	text-align: center;
+    display: block;
+    margin-top: 200px;
+
 }
 
 .about {
-	background-color: #669999;
-	opacity: 0.8;
 	width: 800px;
 	display: block;
 	margin: auto;
+    color: #FFE6AA;
 }
 
-.about-p {
+p.about-p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.5
 }
