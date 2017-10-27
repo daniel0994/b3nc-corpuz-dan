@@ -311,7 +311,7 @@
         <hr>
         <form action="" method="">
             <button>
-                <img src="img/lion.jpg" alt="minimal lion">
+                <img src="img/lion.jpg" alt="minimal lion">Minimal lion art
             </button>
         </form>
         
@@ -325,6 +325,60 @@
             <input type="submit" name="signIn" value="Submit">
             <input type="submit" name="signUp" value="Register">
             
+        </form>
+        
+        
+        <hr>
+        
+        <!--Grouping form elements-->
+        
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            
+            <label for="mobile">Mobile</label>
+            <input type="number" name="mobile">
+        </fieldset>
+        <hr>
+        <!--Activity-->
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" size="40px">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" size="40px">
+        </fieldset>
+        <br>
+        <form method="get" action="">
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label>How did you hear about us?</label>
+            <select>
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="bing">Bing</option>
+                <option value="website">Website</option>
+                <option value="refers">Refers</option>
+                
+            </select>
+            <br><br>
+            <label>Would you visit again?</label>
+            <br>
+            <input type="radio" name="visit" value="yes">Yes
+            <input type="radio" name="visit" value="no">No
+            <input type="radio" name="visit" value="maybe">Maybe
+            <br>
+            <label>Comments:</label>
+            <br>
+            <textarea rows="4" cols="50"></textarea>
+            <br><br>
+            <input type="checkbox" checked>Sign me up for email updates
+            <br>
+            <input type="submit" name="submitReview"value="Submit review"> 
+        </fieldset>
         </form>
     </body>
 </html>
