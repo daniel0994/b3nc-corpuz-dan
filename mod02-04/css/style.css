@@ -1,0 +1,172 @@
+/*default style*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #eee;
+    color: black;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+
+/*header */
+
+header {
+    background-color: #01579B;
+    height: 70px;   
+    font-size: 10px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize; 
+    margin: 0;
+}
+
+
+
+/*Dashboard style   */
+
+.main-dashboard {
+    margin-bottom: 80px
+}
+
+.dashboard-thumbnail {
+    display: inline-block;
+    width: 35%;
+    height: 100px;
+    
+}
+
+.dashboard-circles {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+
+
+#postCircle {
+    background-color: #4CAF50;
+    margin-left: 60px;
+    
+}
+
+#imageCircle {
+    background-color: #09c;
+    margin-left: 60px;
+}
+
+.dashboard-text {
+    margin: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: #0277BD;
+}
+
+.inline-blocked {
+    display: inline-block;
+}
+
+.main-dashboard h3.inline-blocked i{
+    font-size: 30px;
+}
+
+
+
+/*Post style*/
+
+#postTitle {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+
+#postContent {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.hide-overflow {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/*btn style*/
+
+.btn {
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-blue {
+    background-color: #2196F3;
+}
+
+.btn-green {
+    background-color: #4CA
+}
+
+#btnBrowse {
+    margin-right: 5px;
+}
+
+#btnPublish,
+#btnUpload,
+#btnBrowse {
+    float: right;
+}
+
+
+/*images*/
+
+.img-set {
+    height: 70px;
+    width: 100px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #01579B;
+    height: 70px;
+    color: #ffffff;
+    line-height: 70px;
+    text-align: center;
+}

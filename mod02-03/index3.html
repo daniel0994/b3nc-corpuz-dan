@@ -1,64 +1,70 @@
 <!doctype html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        
         <title>HTML DOM Activity 3</title>
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
     </head>
     <body>
-        <div class="wrap">
+        <div class="wrapper">
+            
             <header>
-                <h1>Tuitt Coding Bootcamp</h1>
-                
+                <h1>Tuitt Coding Bootcamp</h1>   
             </header>
             
             <main>     
-                <div class="info-wrap">
-                    <i class="fa fa-home" aria-hidden="true"> <h2>Dash Board</h2></i>
+                <div class="dashboard-wrap">
+                    <h2><i class="fa fa-home" aria-hidden="true"> DashBoard</i></h2>
                    
                     
-                    <div class="info">
+                    <div class="post-dash">
                         <img src="#" alt="post icon">
                         <span>5 posts</span>        
-
+                    </div>
+                    
+                    <div class="image-dash">
                         <img src="#" alt="image icon">
                         <span>13 images</span>       
                     </div>
+                    
                 </div>
 
                 <div class="post-wrap">
-                    <h2>&#129079; New Post</h2>
+                    
+                    <h2><i class="fa fa-clipboard" aria-hidden="true">New Post</i></h2>
+                    
                     <form action="" method="post">
-                        <input type="text" name="title" placeholder="Enter your post here">
-                        <textarea placeholder="Enter your content here"></textarea>
+                        <input type="text" name="title" placeholder="Enter your post title">
+                        <textarea placeholder="Enter post content here"></textarea>
                         <input type="submit" value="Publish" name="Publish">    
                     </form>
                 </div>
                 
                 <div class="upload-wrap">
-                    <h2><i class=""></i> Upload Images</h2>
+                    <h2><i class="fa fa-cloud-upload" aria-hidden="true">Upload Images</i></h2>
 
                     <div id="uploadedImages">
-                        <ul>
-                           <li><a href="#"> <img src="http://lorempixel.com/100/100/" alt="Images"></a></li>
-                           <li><a href="#"> <img src="http://lorempixel.com/100/100/" alt="Images"></a></li>
-                           <li><a href="#"> <img src="http://lorempixel.com/100/100/" alt="Images"></a></li>
-                           <li><a href="#"> <img src="http://lorempixel.com/100/100/" alt="Images"></a></li>
-                           <li><a href="#"> <img src="http://lorempixel.com/100/100/" alt="Images"></a></li>
-                        </ul>
+                        <a href="#"><img src="http://lorempixel.com/200/200/" alt="Images"></a>
+                        <a href="#"><img src="http://lorempixel.com/200/200/" alt="Images"></a>
+                        <a href="#"><img src="http://lorempixel.com/200/200/" alt="Images"></a>
+                        <a href="#"><img src="http://lorempixel.com/200/200/" alt="Images"></a>
+                        <a href="#"><img src="http://lorempixel.com/200/200/" alt="Images"></a>
                     </div>  
 
                     <form action="" method="post">
-                        <input type="file" name="browse" id="browse">
-                        <input type="submit" value="Upload" name="submit">
+                        <input type="file" name="browse" id="browse" hidden="">
+                        <input type="submit" value="browse" name="">
+                        <input type="submit" value="Upload" name="">
                     </form>
 
                 </div>
 
             </main>
-
-           
 
             <footer>
                 <p>Tuitt Coding Bootcamp &copy; 2017</p>   

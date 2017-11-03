@@ -12,7 +12,16 @@ This is my first feedback.
 # Feedback
 ## 2017-10-30
 ### HTML QUIZ
-It would be great if the quiz will be make through web.
+It would be great if the quiz will be through web.
+
+# Feedback
+## 2017-11-02
+### HTML DOM ACTIVITY
+We could use any classroom website, for the activities we are taking, its easier track and document.
+similar to netacad. I suggest edmodo or slack
+
+
+
 
 
 
