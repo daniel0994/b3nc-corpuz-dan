@@ -118,9 +118,6 @@ header {
 
 
 
-
-
-
 /*btn style*/
 
 .btn {
@@ -131,12 +128,27 @@ header {
     color: #fff;
 }
 
+.btn:active {
+    padding: 14px 29px;
+}
+
 .btn-blue {
     background-color: #01579B;
 }
 
+.btn-blue:hover {
+    background-color: #67d5ff;
+    color: white;
+}
+
+
 .btn-green {
     background-color: #4CA
+}
+
+.btn-green:hover {
+    background-color: aquamarine;
+    color: white;
 }
 
 #btnBrowse {
@@ -150,7 +162,7 @@ header {
 }
 
 
-/*images*/
+/*image style*/
 
 .img-set {
     height: 70px;
@@ -160,6 +172,7 @@ header {
     border-radius: 3px;
     margin: 0 5px;
 }
+
 
 /*footer*/
 
