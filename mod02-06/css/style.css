@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.wrapper {
+	border: 1px solid blue;
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+div.wrapper > div,
+div.wrapper> div >  div {
+	border: 1px solid blue;
+	background-color: skyblue;
+	padding:20px;
+	text-align: center;
+	border-radius: 7px;
+	margin-top: 25px;
+	
+}
+
+/*inline and block demo*/
+h1,
+p {
+	background-color: #dde0e3;
+}
+
+em,
+strong {
+	display: inline;
+	background-color: #b2d6ff;
+}
+
+/*padding and border demo*/
+
+h1 {
+	padding: 50px;
+	border: 1px solid aqua;
+	/*margin: 10px;*/
+}
+
+
+strong {
+	/*padding: 50px;*/
+	margin: 50px;
+}	
+
+p {
+	padding: 20px 0 20px 10px;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}

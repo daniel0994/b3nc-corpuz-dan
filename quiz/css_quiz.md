@@ -3,19 +3,19 @@
 ## Multiple Choice. Choose your best answer by putting emphasis (`*your answer*`) or strong (`**your answer**`) to the line of your choice.
 
 ### What does CSS stand for?
--** Cascading Style Sheets **
+- ** Cascading Style Sheets **
 - Colorful Style Sheets
 - Computer Style Sheets
 - Creative Style Sheets
 
 ### What is the correct HTML for referring to an external style sheet?
 - ```<link rel="stylesheets" type="text/css" href="mystyle.css">``` 
--** ```<link rel="stylesheet" type="text/css" href="style.css">```** 
+- ** ```<link rel="stylesheet" type="text/css" href="style.css">```** 
 - ```<link href="stylesheet" type="text/css" src="mystyle.css">``` 
 - ```<link src="stylesheet" type="text/css" href="mystyle.css">``` 
 
 ### Where in an HTML document is the correct place to refer to an external style sheet?
--** In the <head> section **
+- ** In the <head> section **
 - At the end of the document
 - In the <body> section
 - Before the <html> element
@@ -23,18 +23,18 @@
 ### Which HTML tag is used to define an internal style sheet?
 - ```<css>```
 - ```<script>```
--** ```<style>```**
+- ** ```<style>```**
 - ```<styles>```
 
 ### Which HTML attribute is used to define inline styles?
--** Style **
+- ** Style **
 - Styles
 - Font
 - Class
 
 ### Which statement uses a correct CSS syntax?
 - {body;color:black;}
--** body {color: black;}**
+- ** body {color: black;}**
 - {body:color=black;}
 - body:color=black;
 
@@ -53,25 +53,25 @@
 ### How do you select an element with id "demo"?
 - *demo
 - .demo
--** #demo **
+- ** #demo **
 - Demo
 
 ### How do you select elements with class name "test"?
 - #test
--** Test **
+- ** Test **
 - *test
-- .test
+- .test 
 
 ### How do you select all p elements inside a div element?
 - div + p
--** div p **
+- ** div p **
 - div.p
 - div ~ p
 
 ### How do you group selectors?
 - Separate each selector with a space
 - Separate each selector with a plus sign
--** Separate each selector with a comma**
+- ** Separate each selector with a comma**
 - Separate each selector with a dot
 
 ### Which pseudo class selects links that are currently being hovered over by the mouse pointer?
