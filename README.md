@@ -21,6 +21,12 @@ We could use any classroom website, for the activities we are taking, its easier
 similar to netacad. I suggest edmodo or slack
 
 
+## 2017-11-08
+### Subline text 
+Installing plugins in subline text and markdown.  
+Getting started to subline text, hits and tips.  
+
+
 
 
 
