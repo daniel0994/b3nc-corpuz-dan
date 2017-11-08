@@ -24,7 +24,7 @@ similar to netacad. I suggest edmodo or slack
 ## 2017-11-08
 ### Subline text 
 Installing plugins in subline text and markdown.  
-Getting started to subline text, hits and tips.  
+Getting started to subline text, hints and tips.  
 
 
 
