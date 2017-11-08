@@ -39,7 +39,7 @@ alert(s);
 ```
 
 ```php
-	echo('Hello world!');
+echo('Hello world!');
 ```
 
 ## Emoji
@@ -53,3 +53,11 @@ alert(s);
 :zap:
 
 :v:
+
+## Tables
+
+| firstname | lastname |
+|:----------|:---------|
+| Daniel    | Corpuz   |
+| Rhegeline | Alcido   |
+| Lester    | Amparo   |
