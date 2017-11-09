@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	/*box-sizing: border-box;*/
+}
+
+
+.grandparent {
+	background-color: skyblue;
+}
+
+.parent {
+	background-color: pink;
+
+}
+
+div {
+	padding: 20px;
+}
+
+p {
+	/*margin-left: 20px;*/
+	/*margin-top: -20px;*/
+}
+
+input[name="fname"] {
+	margin-right: 20px;
+}
+
+
+strong {
+	background-color: yellow;
+	position: relative;
+	left: 100px;
+	top: 100px;
+}
