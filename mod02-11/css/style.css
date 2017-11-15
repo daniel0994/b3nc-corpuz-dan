@@ -7,12 +7,19 @@ body {
 	font-size: 14px;
 }
 
+
+.page-wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
 .container {
 	width: 700px;
 	height: auto;
 	padding: 10px;
 	overflow: auto;
 	background-color: black;
+	margin: 0 auto;
 }
 
 .greybox {
@@ -196,6 +203,7 @@ h2 {
 	padding: 10px;
 	overflow: auto;
 	background-color: black;	
+	margin: auto;
 }
 
 .finalLeftSide {
@@ -248,3 +256,74 @@ nav ul li {
 	margin-right: 5px;
 	background-color: gray;
 }
+
+
+
+/*custom extras*/
+
+/*act1*/
+
+.act1-bgcolor {
+	background-color: #6599FF;
+}
+
+div.greybox.left img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+div[class="greybox left"] {
+	border: 2px solid #097054;
+	background-color: #fff;
+	border-radius: 50%;
+
+}
+
+/*act2*/
+
+.act2-bgcolor {
+	background-color: #AD7460;
+}
+
+.centerMe {
+	margin: auto;
+}
+.wanted {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+div[class="white-borderContainer left"] {
+	background-color: #F9E3CB;
+}
+
+div.greybox.marginRemove img{
+	width: 150px;
+	height: 150px;
+}
+
+.container.act2-bgcolor .white-borderContainer p {
+	color: black;
+	font-weight: bold;
+
+}
+
+
+
+/*act 3*/
+
+.act3-bgimg {
+	background-color: gray;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.act3-bgimg img {
+	height: 100%;
+	width: 100%;
+}
+
