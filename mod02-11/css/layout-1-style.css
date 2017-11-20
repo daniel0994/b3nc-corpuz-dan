@@ -1,0 +1,33 @@
+
+
+.container {
+	width: 700px;
+	height: auto;
+	padding: 10px;
+	overflow: auto;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+.greybox {
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	border-radius: 50%;
+	border: 7px solid brown;
+}
+
+
+
+.marginRemove {
+	margin: 0;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+.makeCircle img {
+	border-radius: 50%;
+}
