@@ -268,6 +268,11 @@ h2 {
 }
 
 /*act 10*/
+.smaller-text p{
+	font-size: 13px;
+	font-weight: bold;
+	color: brown;
+}
 
 .removeRadius {
 	border-radius: 7px;
@@ -293,18 +298,20 @@ h2 {
 	overflow: auto;
 }
 
-
+.finalText p{
+	font-size: 15px;
+}
 .finalWhiteBorder {
 	width: 150px;
 	padding: 5px;
 	margin: 10px;
 	float: left;
-	border: 1px solid white;
+	border: 1px solid brown;
+	border-radius: 7px
 }
 
 .finalGrayBox {
 	height: 100px;
-	background-color: gray;
 }
 
 .largeGrayRect {
@@ -318,34 +325,18 @@ h2 {
 	width: 150px;
 	margin-right: 5px;
 	float: left;
-	background-color: gray;
 }
 
 ul {
-	padding: 0;
+	padding: 5px;
+	background-color: brown; 
 }
 nav ul li {
 	list-style: none;
 	display: inline;
-	margin-right: 5px;
-	background-color: gray;
+	margin-right: 5px;		
 }
 
 
 
 
-
-/*act 3*/
-
-.act3-bgimg {
-	background-color: gray;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-.act3-bgimg img {
-	height: 100%;
-	width: 100%;
-}
-
-*/
