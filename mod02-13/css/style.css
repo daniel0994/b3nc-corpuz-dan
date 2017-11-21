@@ -1,0 +1,159 @@
+.colorfg {
+	color: #fff;
+}
+
+.colorbg {
+	background-color: black;
+}
+
+.name {
+	background-color: mediumaquamarine;
+}
+
+.rgb {
+	background-color: rgb(102, 205, 170);
+}
+
+.rgba {
+	background-color: rgba(100,100,100,0.2);
+}
+
+.hex {
+	color: #fff900;
+}
+
+.hsl {
+	background-color: hsl(126, 100%, 50%);
+}
+
+.hsla {
+	background-color: hsla(126, 100%, 50%, 0.2);
+}
+
+.contrastlow {
+	background-color: red;
+	opacity: 0.5
+}
+
+/*text*/
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.linethrough {
+	text-decoration: line-through;
+}
+
+.none {
+	text-decoration: none;
+}
+
+.lineheight {
+	line-height: 30px;
+}
+
+.letterspacing {
+	letter-spacing: 2px;
+}
+
+.wordspacing {
+	word-spacing: 10px;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.alignjustify {
+	text-align: justify;
+}
+
+.indent {
+	text-indent: 20px;
+}
+
+.textshadow {
+	text-shadow: 10px 10px 20px black;
+}
+
+/*FONT*/
+
+.localfont {
+	font-family: 'Arial';
+}
+.serif {
+	font-family: georgia;
+}
+
+/*import*/
+
+@font-face {
+	font-family: ''
+}
+
+
+.serif {
+	font-family: serif;
+}
+
+.sansserif {
+	font-family: sans-serif;
+}
+
+.monosspace {
+	font-family: monospace;
+}
+
+.cursive {
+	font-family: cursive;
+}
+
+.fantasy {
+	font-family: fantasy;
+}
+
+.pixel {
+	font-size 20px;
+}
+
+.percent {
+	font-size: 200%;
+}
+
+.ems {
+	font-size: 2em;
+}
+
+.boxshadow {
+	box-shadow:  10px 10px 5px black;
+}
