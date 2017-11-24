@@ -66,6 +66,7 @@ p {
 
 .social {
 	float: right;
+	font-size: 24px;
 }
 
 
@@ -223,4 +224,8 @@ h3 {
     border-radius: 4px;
     background-color: #1b95e0;
     color: #fff;
+}
+
+button.btn:hover {
+	background-color: #5fb4e9;
 }
