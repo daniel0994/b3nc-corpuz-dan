@@ -1,0 +1,226 @@
+/*defaults*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: 'Amatic SC', cursive;
+	
+}
+
+ ul {
+	list-style: none;
+	padding: 0;
+}
+ ul,  li, .nav, .social {
+	display: inline;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+}
+
+.top-container {
+	padding: 50px, 50px, 20px, 50px;
+}
+
+/*header style*/
+
+
+.header {
+	text-align: center;
+}
+
+.header > h1 {
+	font-size: 53px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.header > h2 {
+	font-size: 30px;
+}
+
+/*navigation style*/
+
+.links {
+	font-family: 'Dosis', sans-serif;
+	margin: 30px auto;
+	width: 80%;
+	word-spacing: 10px;
+	font-size: 1.2rem;
+}
+
+.links li a:hover {
+    color: gray;
+}
+
+
+.social {
+	float: right;
+}
+
+
+/*misc style*/
+
+#author, #time, #tags, #comments {
+	font-weight: bolder;
+}
+
+/* content style*/
+
+.contentBox {
+	border: 3px solid #000;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	margin-bottom: 24px;
+}
+
+.content h1 {
+	font-size: 43px;
+	margin-bottom: 25px;
+}
+
+.content p {
+	margin-bottom: 25px;
+}
+
+.contentSocial {
+	word-spacing: 3px;
+	font-size: 18px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.citation {
+	margin-bottom: 25px;
+}
+
+.right {
+	float: right;
+	color: #000;
+}
+
+
+.pager {
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+}
+
+.pager a {
+	text-decoration: none;
+	font-size; 18px;
+	color: #000;
+}
+
+
+
+
+
+/*footer*/
+
+.footerContent {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.col-1, .col-2 {
+	width: 50%;
+	float: left;
+}
+
+.col-2 {
+	position: relative;
+	left: 30px;
+}
+
+
+.footerBG {
+	background-color: lightgrey;
+}
+
+
+.footBox {
+	width: 180px;
+	margin-bottom: 50px;
+}
+
+.footBoxTitle {
+	border-bottom: 2px solid #000;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+.footerContent {
+	font-size: 18px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.footerContent ul, .footerContent li{
+	display: block;
+}
+
+.footerContent li {
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.copyright {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.overflow {
+	overflow: auto;
+}
+
+.item {
+	float: left;
+}
+
+.item-title a{
+	float: left;
+	text-transform: initial;
+	text-decoration: none;
+	color: #000;
+}
+
+.clear {
+	clear: both;
+	content: "";
+}
+
+h3 {
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.btn {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #1b95e0;
+    color: #fff;
+}

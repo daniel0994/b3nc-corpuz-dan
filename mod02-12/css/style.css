@@ -6,6 +6,7 @@
 /*remove default margin to document*/
 body {
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 .nav,
@@ -21,11 +22,13 @@ body {
 .logo {
 	width: 140px;
 	height: 140px;
-	background-color: darkgrey;
+	background-image: url("https://icon-icons.com/icons2/1125/PNG/512/1486164230-goodreadssquarelight2_79641.png");
+	background-size: 100% 100%;
 }
 
+
 .nav {
-	background-color: yellow;
+	background-color: #e5ddcd;
 	height: 100%;
 	width: 200px;
 	position: fixed;
@@ -37,7 +40,7 @@ ul {
 
 ul > li {
 	list-style: none;
-	background-color: lightblue;
+	background-color: #382110;
 	margin-bottom: 2px;
 	text-align: center;
 	line-height: 48px;
@@ -46,19 +49,35 @@ ul > li {
 
 ul > li > a {
 	text-decoration: none;
+	color: white;
 }
 
 .main {
-	background-color: gray;
+	background-color: #F4F1EA;
 	margin-left: 200px;
 }
 
 /*banner*/
 
 .banner {
-	background-color: skyblue;
+	background-size: cover;
+	background-image: url("https://spark.adobe.com/images/landing/preview-wattpad-cover-maker-thumbnail.jpg");
 	position: relative;
 	min-height: 700px;
+}
+
+.box > h1 {
+	font-size: 50px;
+	color: #A4947C;
+	text-shadow: 1px 1px #fff;
+}
+
+.box > h1 span {
+	color: #584111;
+}
+
+.box > p {
+	color: #fff;
 }
 
 .box {
@@ -76,14 +95,14 @@ ul > li > a {
 /*Main section*/
 
 .about {
-	background-color: indianred;
+	background-color: #F4F1EA;
 	min-height: 300px;
 }
 
 /*Services*/
 
 .services {
-	background-color: midnightblue;
+	background-color: #dcd2bc;
 	min-height: 300px;
 }
 
@@ -116,7 +135,7 @@ ul > li > a {
 }
 
 .projects {
-	background-color: crimson;
+	background-color: #F4F1EA;
 	min-height: 300px;
 }
 
@@ -136,7 +155,7 @@ ul > li > a {
 	text-align: justify;
 }
 .gallery {
-	background-color: orange;
+	background-color: #dcd2bc;
 	min-height: 400px;
 }
 
@@ -145,7 +164,11 @@ ul > li > a {
 /*Footer*/
 
 .footer {
+<<<<<<< HEAD
 	background-color: green;
+=======
+	background-color: #a78f58;
+>>>>>>> 9a99f9b969f4bef9343fe15265fe57da3dbbc4b4
 	min-height: 70px;
 }
 
