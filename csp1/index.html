@@ -13,33 +13,41 @@
 	<!-- custom CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+<div id="loader">
+
 <body>
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				</button>
-				<a class="navbar-brand" href="#">Happy Weekends</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Story</a></li>
-					<li><a href="#">Coffee</a></li>
-					<li><a href="#">News and Updates</a></li>
-					<li><a href="#">Contacts</a></li>
-				</ul>
+<!-- loader -->
 
-			</div> <!-- nav-header -->
-		</div> <!-- ./container-fluid -->
-	</nav>
+		
+	
 
-	<div class="main">
-		<div class="container-fluid noPadding">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div class="container-fluid noPadding">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Story</a></li>
+							<li><a href="#">Coffee</a></li>
+							<li><a href="#">News and Updates</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+
+					</div> <!-- nav-header -->
+				</div> <!-- ./container-fluid -->
+			</nav>
+
+			<div class="carousel-content">
+
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -54,11 +62,11 @@
 					</div>
 
 					<div class="item">
-						<img class="image-responsive" src="images/header2.jpg" alt="Chicago">
+						<img class="image-responsive" src="images/header1.jpg" alt="Chicago">
 					</div>
 
 					<div class="item">
-						<img class="image-responsive" src="images/header3.jpg" alt="New York">
+						<img class="image-responsive" src="images/header1.jpg" alt="New York">
 					</div>
 				</div>
 
@@ -71,58 +79,85 @@
 					<span class="glyphicon glyphicon-chevron-right"></span>
 					<span class="sr-only">Next</span>
 				</a>
-			</div>
-		</div> <!-- ./container-fluid -->
-	</div> <!-- ./main -->
+			</div> <!-- ./carousel-content -->
+
+		</div> <!-- ./myCarousel -->
+	</div>  <!-- ./container-fluid -->
+
 
 	<!-- content -->
+
+	<section>
+		<div class="container-fluid allocation-top">
+			<div class="jumbotron">
+				<h2 class="text-center">Test Content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</section>
+
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-12">
-					<h2 class="text-center">Our Services</h2>
+				<h2 class="text-center allocation-top">Top rated Item</h2>
 			</div>
 		</div>
+
 		<div class="row">
-			<div class="col-xs-6 col-sm-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="services-bg text-center">
+					<img class="image-responsive img-thumbnail" src="images/brewing.jpg">
+					<h3>Flat White</h3>
+				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="col-xs-12 col-sm-12  col-md-6 col-lg-6">
+				<div class="services-bg text-center">
+					<img class="image-responsive img-thumbnail" src="images/brewing.jpg">
+					<h3>Coffechino</h3>
+				</div>
 			</div>
 
 		</div> <!-- ./row -->
 
 		<div class="row">
-			<div class="col-xs-6 col-sm-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="col-xs-12 col-sm-12  col-md-6 col-lg-6">
+				<div class="services-bg text-center">
+					<img class="image-responsive img-thumbnail" src="images/brewing.jpg">
+					<h3>Cot chocolate</h3>
+				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="services-bg text-center">
+					<img class="image-responsive img-thumbnail" src="images/brewing.jpg">
+					<h3>Milk Shake</h3>
+				</div>
+			</div>
+		</div> <!-- /.row -->
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="services-bg text-center">
+					<img class="image-responsive img-thumbnail" src="images/brewing.jpg">
+					<h3>Smoked Turkey</h3>
+				</div>
 			</div>
 
-		</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="services-bg text-center">
+					<img class="image-responsive img-thumbnail" src="images/brewing.jpg">
+					<h3>Cheese Salad Sandwich</h3>
+				</div>
+			</div>
+
+		</div> <!-- ./row -->
 
 	</div> <!-- container-fluid -->
 
@@ -134,10 +169,10 @@
 
 			<div class="col-xs-12 col-md-12">
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
@@ -152,10 +187,10 @@
 
 			<div class="col-xs-12 col-md-12">
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
@@ -172,7 +207,10 @@
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 <!-- import bootstrap js -->
-<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js""></script>
+<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
 
 </body>
+</div>
 </html>
