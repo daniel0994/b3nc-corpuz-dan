@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
 }
+
 html, body {
 	padding: 0;
 	margin: 0;
@@ -10,12 +11,9 @@ html, body {
 }
 
 body {
-	background-image: url('../images/wallpaper.jpeg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: right;top;
-	background-repeat: no-repeat;
+	color: #fff;
 }
+
 
 h2 {
 	font-family: 'Lobster', cursive;
@@ -34,43 +32,78 @@ h2 {
 }
 
 .img-header {
-	background-image: url('../images/wallpaper.jpg');
-	background-size: 100% 100%;
-	height: 900px;
-	max-width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	max-height: 100%;
+	min-height: 100vh;
+	min-width: 100vw;
 	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.img-header2 {
+	background-size: cover;
+	max-height: 100%;
+	min-height: 100vh;
+	min-width: 100vw;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.header-bg1 {
+	background-image: url('../images/wallpaper.jpg');
+}
+
+.header-bg2 {
+	background-image: url('../images/wallpaper2.jpg');
 }
 
 
-/*top span*/
+
+
+/*landing*/
 
 .landing-header {
 	position: relative;
-	top: 250px;
-	width: 70%;
+	top: 100px;
+	width: 50%;
 	border-radius: 7px;
-	padding: 20px;
+	padding: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.landing-text {
+	font-size: 25px;
+	margin-top: 150px;
+
 }
 
 .landing-header h2 {
 	color: white;
-	font-size: 5vw;
+	font-size: 2.5vw;
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.2;
 	text-shadow: 1px 1px 1px black;
+
 }
 
 h2.bold {
 	font-weight: 200px;
 	font-style: normal;
-	font-size: 13vw;
+	font-size: 4vw;
 }
 
 h2.superbold  {
 	font-weight: bolder;
 	font-style: normal;
-	font-size: 5vw;
+	font-size: 2.5vw;
 }
+
 
 /*################################################custom BS nav###############################################*/
 
@@ -97,7 +130,6 @@ h2.superbold  {
 .navbar {
 	margin-bottom: 0;
 	min-height: 80px;
-	margin-top: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
 	
@@ -106,7 +138,8 @@ h2.superbold  {
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
+	font-size: 2vw;
+	text-shadow: 1px 1px 1px black;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -149,15 +182,23 @@ h2.superbold  {
 
 
 
+/*#########################MENU###########################*/
 
-
-
-/*carousel custom*/
-
-.carousel-inner > .item > img {
-	width: 100%;
-	height: 500px;
+.menu-img {
+	height: 100px;
+	width: 200px;
 }
+
+
+
+.footer-bg {
+	background-color: black;
+}
+
+
+
+
+
 
 
 /*################################### content #################################*/
@@ -175,8 +216,8 @@ section > .container-fluid {
 /*desktop*/
 
 @media only screen and (max-width: 980px) {
-	.carousel-content {
-		display: none;
+	.img-header {
+		min-height: 60vh;
 	}
 	/*######################### NAV ##########################*/
 
@@ -188,7 +229,7 @@ section > .container-fluid {
 	}
 
 	.navbar-default {
-	background-color: rgba(112, 86, 63, 0.9);
+	background: linear-gradient(to bottom, rgb(112, 86, 63), rgb(80, 70, 50));
 	}
 
 	.navbar-default .navbar-nav>li>a {
@@ -205,6 +246,14 @@ section > .container-fluid {
 	.navbar-brand {
 		height: 50px;
 	}
+
+
+	/*##################### LANDING HEADER ######################*/
+
+	.landing-header {
+		display: none;
+	}
+
 }
 
     
