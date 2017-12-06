@@ -26,6 +26,16 @@ h3 {
 	text-shadow: 2px 2px 2px black;
 }
 
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+.content-container {
+	width: 60%;
+	margin: 50px auto;
+}
+
 /*loader*/
 
 
@@ -87,6 +97,10 @@ h3 {
 
 .subscribe-bg {
 	background: linear-gradient(to bottom, rgb(112, 86, 63), rgb(80, 70, 50));
+}
+
+.about-bg {
+	background-image: url('../images/about.jpg');
 }
 
 
@@ -246,9 +260,6 @@ h2.superbold  {
 
 
 
-
-
-
 .subscribe-bg button, input{
 	margin-top: 5px;
 }
@@ -259,12 +270,14 @@ h2.superbold  {
 
 }
 
+
+
 .top-allocation {
 	margin-top: 50px;
 }
 
 
-/*#########################MENU###########################*/
+
 
 
 
@@ -297,6 +310,35 @@ h2.superbold  {
 
 
 
+/*################################################## ABOUT PAGE #######################################*/
+
+.about-header1 {
+	background-color:  rgba(169, 151, 139, 0.6);
+}
+
+.about-header2 {
+	background-color: #e5dfdc;
+}
+
+
+
+/*################################################## News PAGE #######################################*/
+
+.panel-default, .panel-default>.panel-heading {
+	background-color: rgb(112, 86, 63);
+	border: none;
+	color: #fff;
+	margin-top: 50px;
+}
+
+
+
+/*######################################## contacts ########################################333*/
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
 
 
 

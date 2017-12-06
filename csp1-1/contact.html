@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Sip it Cafe</title>
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+
+	<!--import bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+
+	<!-- custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+
+<body>
+	<!-- loader -->
+	<!-- <div id="loader">
+	</div>
+-->
+
+<div class="page">
+	<div class="contacts-header">
+		<div class="container-fluid">
+			<div class="rows">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<p> <i class="fa fa-phone" aria-hidden="true"></i> Call us today: 63-937-4813</p>
+				</div>
+
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<p> <i class="fa fa-map-marker" aria-hidden="true"></i> Caswynn Building, No. 134 Timog Avenue, Sacred Heart, Quezon City, 1103 Metro Manila</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="#"> <h1 class="logo-fonts">Sip <span class="cafe-logo">it</span> Cafe</h1></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">	
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">Story</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="news.html">News</a></li>
+						<li class="active"><a href="contact.html">Contacts</a></li>
+					</ul>
+
+				</div> <!-- nav-header -->
+			</div> <!-- ./container-fluid -->
+		</nav> <!--./nav  -->
+
+	<div class="img-header2 about-bg">
+		<div class="img-header about-header1">	
+			<div class="container-fluid">
+				<div class="content-container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h4>Contact Us</h4>
+							<p>Call us: 800-2345-6789</p>
+							<p>Email: lorem@ipsum.com</p>
+
+							<p>Whatever types of questions you’ll have, feel free to get in touch with us and address them!</p>
+								<form>
+
+									<div class="form-group">
+								   		<label for="name">Name:</label>
+								   		<input type="name" class="form-control" id="name" placeholder="Name">
+								  	</div>
+
+									<div class="form-group">
+								   		<label for="email">Email address:</label>
+								   		<input type="email" class="form-control" id="email" placeholder="Email">
+								  	</div>
+
+								  	<div class="form-group">
+									 	<label for="comment">Comment:</label>
+									  	<textarea class="form-control" rows="5" id="comment"></textarea>
+									</div>
+
+								  	<button type="submit" class="btn btn-default">Submit</button>
+								</form>
+						</div>
+					
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div>
+								<div id="map"></div>
+								<p>Caswynn Building, No. 134 Timog Avenue, Sacred Heart, Quezon City, 1103 Metro Manila</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- ############ FOOTER ####################### -->
+
+	<div class="container-fluid footer-bg">
+		<div class="rows">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<h3 class="logo-fonts">Sip <span class="cafe-logo">it</span> Cafe</h3>
+				<div class="content-fonts footer-contacts">
+					<p>Call us: 800-2345-6789</p>
+					<p>Caswynn Building, No. 134 Timog Avenue, Sacred Heart, Quezon City, 1103 Metro Manila</p>
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="content-fonts">
+					<h4 class="text-uppercase"> <strong>Follow us on: </strong></h4>
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="rows">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<p class="content-fonts top-allocation">© 2017 Sip it Cafe All right reserved. For Educational purpose only</p>
+			</div>
+		</div>
+	</div>
+
+</div> <!-- page ./container-fluid -->
+
+
+
+
+
+
+
+
+
+<!-- google maps -->
+
+<script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+ </script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
+
+<!-- font awesome -->
+<script src="https://use.fontawesome.com/d1c57c23b7.js"></script>
+
+<!-- import jQUERY -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<!-- import bootstrap js -->
+<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
