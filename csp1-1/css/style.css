@@ -20,6 +20,12 @@ h2 {
 	color: brown;
 }
 
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px black;
+}
+
 /*loader*/
 
 
@@ -31,8 +37,22 @@ h2 {
     z-index: 9999;
 }
 
+
+/*header*/
+
+.contacts-header {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}
+
+.contacts-header p {
+	font-size: 12px;
+}
+
+
 .img-header {
-	background-size: cover;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	max-height: 100%;
 	min-height: 100vh;
@@ -43,10 +63,7 @@ h2 {
 }
 
 .img-header2 {
-	background-size: cover;
-	max-height: 100%;
-	min-height: 100vh;
-	min-width: 100vw;
+	background-size: 100% 100%;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -60,17 +77,26 @@ h2 {
 	background-image: url('../images/wallpaper2.jpg');
 }
 
+.header-bg3 {
+	background-image: url('../images/wallpaper3.jpg');
+}
+
+.header-bg4 {
+	background-image: url('../images/wallpaper4.jpg');
+}
+
+.subscribe-bg {
+	background: linear-gradient(to bottom, rgb(112, 86, 63), rgb(80, 70, 50));
+}
 
 
-
-/*landing*/
+/*############################### LANDING HEADER #####################################*/
 
 .landing-header {
 	position: relative;
-	top: 100px;
-	width: 50%;
+	width: 100%;
 	border-radius: 7px;
-	padding: 50px;
+	padding: 20px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -105,7 +131,12 @@ h2.superbold  {
 }
 
 
+
 /*################################################custom BS nav###############################################*/
+
+
+
+/*############################### NAV BAR CUSTOME STYLE####################################*/
 
 .logo-fonts {
 	font-family: 'Lobster', cursive;
@@ -129,16 +160,22 @@ h2.superbold  {
 
 .navbar {
 	margin-bottom: 0;
-	min-height: 80px;
 	padding-left: 50px;
 	padding-right: 50px;
+	border-radius: 0;
 	
+}
+
+.navbar-default {
+	background: linear-gradient(to bottom, rgb(112, 86, 63), rgb(80, 70, 50));
+	color: #fff;
+	border: none;
 }
 
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -147,8 +184,8 @@ h2.superbold  {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
- border-top: 5px solid white;
- margin-top: -5px;
+ 		border-top: 5px solid white;
+ 		margin-top: -5px;
 
 }
 
@@ -169,30 +206,90 @@ h2.superbold  {
 
 
 
-.navbar-default {
-	background-color: rgba(191, 124, 32, 0.0);
-	color: #fff;
-	border: none;
-}
+/*###################### CONTENTS ######################################################*/
 
 .noPadding {
 	padding-left: 0;
 	padding-right: 0;
 }
 
+.content-center {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+
+.content-fonts {
+		text-shadow: 1px 1px 1px black;
+		font-size: 20px;
+		font-family: 'Raleway', sans-serif;
+}
+
+
+#overlay {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(242,242,242,0.4);
+    z-index: 2;
+}
+
+	/*#################### ABOUT US  #################*/
+
+	.about-logo {
+		font-size: 60px;
+	}
+
+
+
+
+
+
+.subscribe-bg button, input{
+	margin-top: 5px;
+}
+
+.menu-img {
+	height: 450px;
+	width: 450px;
+
+}
+
+.top-allocation {
+	margin-top: 50px;
+}
 
 
 /*#########################MENU###########################*/
 
-.menu-img {
-	height: 100px;
-	width: 200px;
-}
 
 
+
+
+
+
+
+/*############################################ FOOTER ###################################*/
 
 .footer-bg {
 	background-color: black;
+	padding-top: 20px;
+}
+
+
+.footer-bg i{
+	font-size: 35px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.footer-contacts {
+	margin-top: 20px;
+	line-height: 1;
 }
 
 
@@ -201,16 +298,11 @@ h2.superbold  {
 
 
 
-/*################################### content #################################*/
 
-section > .container-fluid {
-	padding-right: 0px;
-	padding-left: 0px;
-}
 
-.container-fluid .jumbotron {
-	border-radius: 0;
-}
+/*################################### MOBILE & TABLET STYLE #################################*/
+
+
 
 
 /*desktop*/
@@ -250,8 +342,29 @@ section > .container-fluid {
 
 	/*##################### LANDING HEADER ######################*/
 
-	.landing-header {
+	.contacts-header {
 		display: none;
+	}
+
+	.landing-header {
+		/*display: none;*/
+	}
+
+	.landing-header h2 {
+		/*display: none;*/
+		line-height: 1;
+		font-size: 20px;
+	}
+
+
+	/*############## Content ###############*/
+
+	h3 {
+		font-size: 40px;
+	}
+
+	.content-fonts {
+		font-size: 12px;
 	}
 
 }
