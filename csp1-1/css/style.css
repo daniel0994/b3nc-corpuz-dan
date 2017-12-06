@@ -18,6 +18,7 @@ body {
 h2 {
 	font-family: 'Lobster', cursive;
 	color: brown;
+	font-size: 35px;
 }
 
 h3 {
@@ -28,13 +29,42 @@ h3 {
 
 h4 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .content-container {
-	width: 60%;
-	margin: 50px auto;
+	width: 70%;
+	margin: 0px auto;
+	padding-top: 50px;
 }
+
+
+
+/*back to top*/
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5px; /* Place the button at the bottom of the page */
+    right: 15px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+    background-color: rgb(112, 86, 63);
+
+}
+
+#myBtn:hover {
+   background-color: rgba(112, 86, 63, 0.6);
+}
+
+
 
 /*loader*/
 
@@ -64,8 +94,7 @@ h4 {
 .img-header {
 	background-size: 100% 100%;
 	background-attachment: fixed;
-	max-height: 100%;
-	min-height: 100vh;
+	min-height: 80vh;
 	min-width: 100vw;
 	position: relative;
 	top: 0;
@@ -146,7 +175,6 @@ h2.superbold  {
 
 
 
-/*################################################custom BS nav###############################################*/
 
 
 
@@ -193,13 +221,14 @@ h2.superbold  {
 	text-shadow: 1px 1px 1px black;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a {
     color: #DEBDD0;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
- 		border-top: 5px solid white;
- 		margin-top: -5px;
+	border-top: 5px solid white;
+	margin-top: -5px;
 
 }
 
@@ -236,7 +265,7 @@ h2.superbold  {
 
 .content-fonts {
 		text-shadow: 1px 1px 1px black;
-		font-size: 20px;
+		font-size: 17px;
 		font-family: 'Raleway', sans-serif;
 }
 
@@ -316,8 +345,16 @@ h2.superbold  {
 	background-color:  rgba(169, 151, 139, 0.6);
 }
 
+.about-header1 h4 {
+	font-weight: bolder;
+}
+
 .about-header2 {
 	background-color: #e5dfdc;
+}
+
+.about-header2 h4 {
+	color: brown;
 }
 
 
@@ -331,14 +368,31 @@ h2.superbold  {
 	margin-top: 50px;
 }
 
+.news-container {
+	width: 80%;
+}
+
+button.btn-default {
+	margin-top: 5px;
+}
+
+/*###################################### MENU ##################################################*/
+
+.menu-bg {
+	background: linear-gradient(to bottom, rgb(112, 86, 63), rgb(80, 70, 50));
+	padding: 20px 20px 0px 20px;
+
+}
 
 
-/*######################################## contacts ########################################333*/
+
+/*######################################## contacts ########################################3*/
 
 #map {
         height: 400px;
         width: 100%;
        }
+
 
 
 
@@ -409,6 +463,21 @@ h2.superbold  {
 		font-size: 12px;
 	}
 
+	/*########### About us ############*/
+
+	.about-header1 .content-container {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.mobile-padding {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.about-header1 .img-margin {
+		width: 80%;
+		height: 250px;
+	}
 }
 
     
