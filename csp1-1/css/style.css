@@ -32,10 +32,30 @@ h4 {
 	font-size: 20px;
 }
 
+h5 {
+	color: brown;
+	font-family: Lobster;
+	font-size: 20px;
+}
+
+h6 {
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 1px 1px 1px black;
+}
+
+a h6 {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer-bg a {
+	color: #fff;
+}
+
 .content-container {
-	width: 70%;
+	width: 60%;
 	margin: 0px auto;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 
@@ -95,7 +115,6 @@ h4 {
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	min-height: 80vh;
-	min-width: 100vw;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -127,6 +146,8 @@ h4 {
 .subscribe-bg {
 	background: linear-gradient(to bottom, rgb(112, 86, 63), rgb(80, 70, 50));
 }
+
+
 
 .about-bg {
 	background-image: url('../images/about.jpg');
@@ -221,7 +242,11 @@ h2.superbold  {
 	text-shadow: 1px 1px 1px black;
 }
 
-.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a {
+ 
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
     color: #DEBDD0;
     background-color: transparent;
 }
@@ -362,7 +387,7 @@ h2.superbold  {
 /*################################################## News PAGE #######################################*/
 
 .panel-default, .panel-default>.panel-heading {
-	background-color: rgb(112, 86, 63);
+	background-color: transparent;
 	border: none;
 	color: #fff;
 	margin-top: 50px;
@@ -378,13 +403,38 @@ button.btn-default {
 
 /*###################################### MENU ##################################################*/
 
+/*
 .menu-bg {
-	background: linear-gradient(to bottom, rgb(112, 86, 63), rgb(80, 70, 50));
-	padding: 20px 20px 0px 20px;
+	background-color: rgba(165,42,42, 0.9);
+	width: 60%;
+}*/
 
+.img-menu {
+	height: 150px;
+	width: 300px;
+}
+
+.img-food {
+	height: 150px;
+	width: 150px;
+	margin: 20px auto;
+}
+
+.menu-title {
+	position: relative;
+}
+
+.menu-title-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
+.food h3 {
+	font-size: 25px;
+}
 
 /*######################################## contacts ########################################3*/
 
@@ -478,8 +528,17 @@ button.btn-default {
 		width: 80%;
 		height: 250px;
 	}
+
+	/*#### MWNU #############*/
+
+	
 }
 
+
+@media only screen and (max-width: 550px) {
+	.menu-bg {
+		width: 90%;
+}
     
 
 /*tablet*/
