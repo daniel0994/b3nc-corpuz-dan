@@ -10,31 +10,58 @@
 </head>
 <body>
 	<div class="wrapper">
-		<h1>What JavaScript can do?</h1>
+		<h1 id="elements">What JavaScript can do?</h1>
 		<hr>	
 
 		<h2>Javascript can hide/show html elements</h2>
-		<button>Hide all</button>
+		<button onclick="hideAll()">Hide all</button>
 
 		<br>	
 
-		<button>Show all</button>
+		<button onclick="showAll()">Show all</button>
 
 
 		<div id="all">
 			<h2 id="content">JavaScript can change HTML content.</h2>
 
-			<button>Change HTML Content</button>
+			<button onclick="changeContent()">Change HTML Content</button>
 
 			<h2>JavaScript can change HTML attribute</h2>
 
-			<button>Change Image Height</button>
-			<button>Change Image</button>
+			<button onclick="changeHeight()">Change Image Height</button>
+			<button onclick="changeImg()">Change Image</button>
 			<br>	
-			<img id="attr" height="230" src="browser.jpg">
+			<img id="attr" height="230" src="img/image1.png">
 				
+			<h2 id="css">JavaScript can change HTML styles</h2>
+			<button onclick="changeStyle()">Change Style</button>
+
+			<h2 id="elements">JavaScript can get and manipulate HTML elements</h2>
+			<form method="" action="">
+				<input id="input1" type="number" value="1">
+				+
+				<input id="input2" type="number" value="3">
+				=
+				<span id="sum"></span>
+			</form>
+
+			<br>
+			<button onclick="getSum()">Compute Sum</button>
 
 		</div>
+	<hr>
+
+	<button onclick="alert('This is inline')">Inline </button>
+
+	<hr>
+
+	<h3 id="heading">This is a heading</h3>
+
 	</div>
+
+
+
+	<script src="js/script.js">
+	</script>
 </body>
 </html>
