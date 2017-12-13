@@ -11,22 +11,20 @@
 <body>
 	<div class="wrapper clear" id="violet-box">
 		<nav>
-			<div class="nav-box" id="red" onclick="redFunc()">
-				
-			</div>
-			<div class="nav-box" id="orange" onclick="orangeFunc()"></div>
-			<div class="nav-box" id="yellow" onclick="yellowFunc()"></div>
-			<div class="nav-box" id="green" onclick="greenFunc()"> </div>
-			<div class="nav-box" id="blue" onclick="blueFunc()"></div>
-			<div class="nav-box" id="indigo" onclick="indigoFunc()"></div>
-			<div class="nav-box" id="violet" onclick="violetFunc()"></div>
+			<div class="nav-box red" onclick="changeColor(this.className)"></div>
+			<div class="nav-box orange" onclick="changeColor(this.className)"></div>
+			<div class="nav-box yellow " onclick="changeColor(this.className)"></div>
+			<div class="nav-box green" onclick="changeColor(this.className)"> </div>
+			<div class="nav-box blue" onclick="changeColor(this.className)"></div>
+			<div class="nav-box indigo "onclick="changeColor(this.className)"></div>
+			<div class="nav-box violet" onclick="changeColor(this.className)"></div>
 		</nav>
-		<div class="box" id="red-box"></div>
-		<div class="box" id="orange-box"></div>
-		<div class="box" id="yellow-box"></div>
-		<div class="box" id="green-box"></div>
-		<div class="box" id="blue-box"></div>
-		<div class="box" id="indigo-box"></div>
+		<div class="box" id="red-box" onclick="changeColor(this.className, this.id)"></div>
+		<div class="box" id="orange-box" onclick="changeColor(this.className, this.id)"></div>
+		<div class="box" id="yellow-box" onclick="changeColor(this.className, this.id)"></div>
+		<div class="box" id="green-box" onclick="changeColor(this.className, this.id)"></div>
+		<div class="box" id="blue-box" onclick="changeColor(this.className, this.id)"></div>
+		<div class="box" id="indigo-box" onclick="changeColor(this.className, this.id)"></div>
 
 	</div>
 
