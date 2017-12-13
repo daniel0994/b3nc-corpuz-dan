@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+}
+.wrapper {
+	width: 80%;
+	height: 100vh;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+h1,
+p,
+span {
+	padding: 25px;
+}
+
+
+hr {
+	margin: 25px 0;
+}
+
+
+.button {
+	text-align: center;
+}
+
+.button > button {
+	padding: 5px;
+}
+
+input {
+	text-align: center;
+	padding: 2px;
+}

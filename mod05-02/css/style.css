@@ -19,7 +19,7 @@ body {
 .box {
 	border: 5px solid black;
 	width: 50%;
-	height: 300px;
+	height: calc(100vh/3);
 	float: left;
 }
 
