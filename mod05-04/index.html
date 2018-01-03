@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess the number</title>
+</head>
+<body>
+<h1>Guess the number from 1 - 10!</h1>
+
+<p id="randomNumber"></p>
+<input type="number" id="number">
+<button onclick="guess()">Guess</button>
+<p id="retry">life remaining: 3</p>
+
+
+<script type="text/javascript">
+	var num = Math.floor(Math.random() * 10);
+	console.log(num);
+
+	var life = 3;
+
+	function random(){
+		num = Math.floor(Math.random() * 10);
+	}
+
+	function guess() {
+		var getNum = document.getElementById("number").value;
+		while(life >= 0) {
+			if(getNum == num) {
+				alert("YOU GOT IT!");
+				document.getElementById("randomNumber").innerHTML = "Prev. number: "+getNum;
+				life++;
+				random();
+				break;
+			} 
+			else if(getNum > num && life > 0) {
+				alert("lower");
+				life--;
+				break;
+			} 
+			else if(getNum < num && life > 0){
+				alert("higher");
+				life--;
+				break;
+			} else {
+				alert("Game over!")
+				document.getElementById("randomNumber").innerHTML = "GAME OVER!";
+				life--;
+			}
+	}
+		
+		document.getElementById("retry").innerHTML = "life remaining: " +life;
+	}
+
+	
+
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Intro</title>
+</head>
+<body>
+
+<input type="text" id="code" name="passcode" onchange="getCode()">
+<h2 id="display">Show here</h2>
+
+<script type="text/javascript">
+	function getCode() {
+		var code = document.getElementById("code").value
+
+		document.getElementById("display").innerHTML = code;
+	}
+
+</script>
+</body>
+</html>
