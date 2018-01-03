@@ -7,11 +7,13 @@
 <script type="text/javascript">
 	function getNum() {
 		var num = parseInt(document.getElementById("num").value);
+		var percent = parseInt(document.getElementById("percent").value);
 
-		document.getElementById("show").innerHTML = num + 10;
+		document.getElementById("show").innerHTML = num * (percent /100);
 	}
 </script>
-	<input type="text" id="num">
+	<input type="number" id="num">
+	<input type="number" id="percent" max="100" min="1" placeholder="%">
 	<button onclick="getNum()">Go!</button>
 	<p id="show">show result here</p>
 </body>
