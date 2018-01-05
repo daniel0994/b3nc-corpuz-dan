@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>USING JQUERY</title>
+</head>
+<body>
+
+<p>Hello world</p>
+<p>Hello world</p>
+<p>Hello world</p>
+
+<p class="para-to-hide">I am a paragraph for class</p>
+<p class="para-to-hide">I am a paragraph for class</p>
+<p class="para-to-hide">I am a paragraph for class</p>
+
+<p id="para-to-hide">I am a paragraph for id</p>
+
+
+
+
+<!-- JQUERY -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js">
+</script>
+
+<!-- script -->
+<script type="text/javascript">
+	// $('p').hide();
+
+	// $('.para-to-hide').hide();
+
+	// $("#para-to-hid e").hide();
+
+
+	// function hideThisElement() {
+	// 	$
+	// }
+	// $('p').click( function () {
+	// 	$(this).hide();
+
+	// });
+
+	$('#para-to-hide').hover(function() {
+		$(this).html("I am a change paragraph.");
+	});
+
+	// $("p").click( function(){
+	// 	$(this).css("color", "red");
+	// });
+
+
+	$("p").click( function() {
+		$(this).attr("align", "right");
+		$(this).css("color", "red");
+	});
+</script>
+</body>
+</html>
