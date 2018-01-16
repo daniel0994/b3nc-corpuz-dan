@@ -8,26 +8,49 @@
 
 // song LYRICS ////////////////////
 
-	function getLyrics($lyrics) {
+	function getLyrics() {
 		$days = ['first ', 'second ', 'third ', 'fourth ', 'fifth ', 'sixth ', 'seventh ', 'eigth ', 'ninth ', 'tenth ', 'elevent ', 'twelfth '];
 
-		$gift = [
-			'A partrige in a pear tree <br>',
-			'Two turtle doves <br>',
-			'Three french hens <br>',
-			'Four calling birds <br>',
-			'Five golden rings <br>',
-			'Six geese a-laying <br>',
-			'Seven swans a-swimming <br>',
-			'Eight maids a-milking <br>',
-			'Nine ladies dancing <br>',
-			'Ten lords a-leaping <br>',
-			'Eleven pipers piping <br>',
-			'Twelve drummers drumming <br>'
+		$gifts = [
+			'A partrige in a pear tree',
+			'Two turtle doves',
+			'Three french hens',
+			'Four calling birds',
+			'Five golden rings',
+			'Six geese a-laying',
+			'Seven swans a-swimming',
+			'Eight maids a-milking',
+			'Nine ladies dancing ',
+			'Ten lords a-leaping ',
+			'Eleven pipers piping ',
+			'Twelve drummers drumming'
 		];
 
-		foreach ($days as $day) {
-			return 'On the '.$days[$lyrics].'day of Christmas my true love gave to me, <br>'.$gift[$lyrics];
+		for($i =0; $i< count($days); $i++) {
+			echo '<div id="day'.$i.'">';
+			echo 'On the '. $days[$i].' day of Christmas my true love gave to me <br>';
+
+			if ($i == 0)
+				echo $gifts[$i]. '<br>';
+			else
+				for($j = $i;$j >=0;$j--)  {
+					if($j==0)
+						echo 'And '.$gifts[$j].'<br>';
+					else
+						echo $gifts[$j].'<br>';
+				}
+			echo '</div>';
 		}
 	}
+
+
+
+// MY SOL
+		// foreach ($days as $index => $day) {
+		// 		return 'On the '.$day.'day of Christmas my true love gave to me, <br>'.$gifts[$index];
+		// 	}
+		// }
+	
+
+	
  ?>

@@ -1,0 +1,41 @@
+body {
+	background: url('https://i.pinimg.com/originals/fb/46/25/fb462542f2676de498b2d54a4b2f5d6f.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+#day1,
+#day2,
+#day3,
+#day4,
+#day5,
+#day6,
+#day7,
+#day8,
+#day9,
+#day10,
+#day11 {
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 10px
+}
+
+.lyrics {
+	font-size: 15px;
+	color: white;
+	text-shadow: 1px 1px 1px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 15px;
+}
+
+h1 {
+	color: red;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+

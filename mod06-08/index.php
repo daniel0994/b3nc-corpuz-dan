@@ -14,35 +14,43 @@ require_once 'assets/lib/twelve_days.php';
  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
  	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
  	<title><?php echo getTitle(); ?>Lyrics</title>
+
  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
  </head>
+
  <body>
-<script type="text/javascript">
-	var a = 0;
-	function add() {
-		document.getElementById("add").innerHTML += "<?php echo getLyrics(0); ?>";		
-	}
-</script>
+
  	<div class="container">
  		<div class="title">
  			<h1>Twelve Days of Christmas</h1>
  		</div>
 
  		<div class="lyrics">
- 			<p id="add"></p>
- 			
- 			
+ 			<?php 
+ 				echo getLyrics();
+ 			?>
  		</div>
 
+ 		
 
- 		<div>
- 			<button onclick="add()">
- 				add lyrics
- 			</button>
- 		</div>
+ 		<button id="lyric">Get lyrics</button>
  	</div>
+
+
+
  
 
-<script type="text/javascript" src="assets/js/script.js"></script>
+ <!-- jQuery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+  <!-- custom JS -->
+<script type="text/javascript" src="assets/js/script.js">
+
+
+</script>
  </body>
  </html>
