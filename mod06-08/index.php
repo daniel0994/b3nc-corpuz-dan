@@ -14,9 +14,14 @@ require_once 'assets/lib/twelve_days.php';
  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
  	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
  	<title><?php echo getTitle(); ?>Lyrics</title>
+ 	
+ 	<!-- google fonts -->
+ 	<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
 
  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+ 	
+
+
  </head>
 
  <body>
@@ -35,7 +40,8 @@ require_once 'assets/lib/twelve_days.php';
  		
 
  		<button id="lyric">Get lyrics</button>
- 	</div>
+ 		<button id="hideLyric">Hide lyrics</button>
+ 		</div>
 
 
 

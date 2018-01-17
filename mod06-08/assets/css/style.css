@@ -24,9 +24,9 @@ body {
 .lyrics {
 	font-size: 15px;
 	color: white;
-	text-shadow: 1px 1px 1px;
 	background-color: rgba(0,0,0,0.5);
 	padding: 15px;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 h1 {
